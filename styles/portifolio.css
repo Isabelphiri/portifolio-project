@@ -71,6 +71,7 @@ p {
         text-align: center;
         width: 100vw;
         margin-left: -100px;
+        margin-right: -100px;
     }
 }
 .project-description p{
@@ -81,7 +82,7 @@ p {
     padding:70px 10px;
 }
 h1 {
-    font-size: 44px;
+    font-size: 50px;
     line-height: 1.5;
 }
 .hero h2 {
