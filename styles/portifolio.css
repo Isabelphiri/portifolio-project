@@ -1,6 +1,6 @@
 :root{
     --branding-color:#6c63ff;
-    --secondary-color:#f9f7fe;
+    --secondary-color:#c7bfdb;
     --heading-font-family:"Play fair Display", serif;
     --default-font-family:"Poppins", sans-serif;
 }
@@ -22,6 +22,8 @@ h1 {
 }
 p {
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
 
     
@@ -51,4 +53,37 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px  30px;
+}
+.btn-branding-outline{
+    border-radius: 4px;
+    color:var (--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px  30px;
+    border: 1px solid var(--branding-color);
+}
+.project-description{
+    padding: 120px 60px;
+}
+@media ( max-width: 990px){
+    .project-description{
+        padding: 0;
+        text-align: center;
+        width: 100vw;
+        margin-left: -100px;
+    }
+}
+.project-description p{
+    font-size: 18px;
+
+}
+.hero {
+    padding:70px 10px;
+}
+h1 {
+    font-size: 44px;
+    line-height: 1.5;
+}
+.hero h2 {
+    font-size:  44px;
 }
